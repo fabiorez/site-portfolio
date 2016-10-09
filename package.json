@@ -1,5 +1,5 @@
 {
-  "name": "port",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/fabitosam/site-portfolio.git"
   },
-  "author": "",
+  "author": "Fabio Rezende",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fabitosam/site-portfolio/issues"
@@ -18,7 +18,6 @@
   "homepage": "https://github.com/fabitosam/site-portfolio#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-ruby-sass": "^2.1.0",
     "gulp-sass": "^2.3.2",
     "gulp-watch": "^4.3.10"
   }

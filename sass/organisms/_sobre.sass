@@ -5,6 +5,8 @@ section.sobre
     +justify-content(space-around)
     margin: 50px 0
     text-align: center
+    +make-sm-column(6)
+    +make-sm-column-offset(3)
 
     +breakpoint($tablet)
       display: block
@@ -20,6 +22,7 @@ section.sobre
       height: 90px
       background-color: $cinza-meio
       border-radius: 120px
+      border: 2px solid $cinza-meio
       text-align: center
       line-height: 85px
       color: $branco

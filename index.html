@@ -8,68 +8,98 @@
 	<link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="logo">
+
+	<nav class="menu-responsivo">
+		<ul>
+			<li><a href="index.html">Início</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+
+	<div class="layout">
+		<header>
+			<div class="container">
+				<div class="logo">
+					<a href="index.html">
+						<img src="images/logo-fr-topo.svg" alt="Logo Topo Fr">
+					</a>
+				</div>
+
+				<div class="links">
+					<nav>
+						<ul>
+							<li><a href="index.html">Início</a></li>
+							<li><a href="sobre.html">Sobre</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contato.html">Contato</a></li>
+						</ul>
+					</nav>
+
+					
+					<a href="javascript:;" class="toggle">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+
+					<ul class="social">
+						<li>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+						</li>
+					</ul>
+				</div>
+
+				<h1><strong>Fabio</strong> Rezende</h1>
+			</div>
+		</header>
+
+		<main>
+			<section class="sobre">
+				<div class="container">
+					<div class="itens">
+						<div class="foto">
+							<img src="images/foto-fr-miolo.png" alt="Foto Fr">
+						</div>
+						<div class="icone-ideia">
+							<i class="fa fa-lightbulb-o"></i>
+						</div>
+						<div class="icone-codigo">
+							<i class="fa fa-code"></i>
+						</div>
+					</div>
+
+					<div class="textos">
+						<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Sit laborum suscipit animi tenetur non dolores maiores, omnis, quo minus, obcaecati quasi nemo voluptatem deleniti amet incidunt maxime ab eligendi dolore.</p>
+						<a href="sobre.html" class="botao medio"><i class="fa fa-eye"></i> Continue lendo</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="logo-rodape">
 				<a href="index.html">
-					<img src="images/logo-fr-topo.svg" alt="Logo Topo Fr">
+					<img src="images/logo-fr-rodape.svg" alt="Logo Rodape Fr">
 				</a>
 			</div>
+			<p>2016 Todos os direitos reservados</p>
+		</footer>
+	</div>
 
-			<div class="links">
-				<nav>
-					<ul>
-						<li><a href="index.html">Início</a></li>
-						<li><a href="sobre.html">Sobre</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-
-				<ul class="social">
-					<li>
-						<a href="#"><i class="fa fa-facebook"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</li>
-				</ul>
-			</div>
-
-			<h1><strong>Fabio</strong> Rezende</h1>
-		</div>
-	</header>
-
-	<main>
-		<section class="sobre">
-			<div class="container">
-				<div class="itens">
-					<div class="foto">
-						<img src="images/foto-fr-miolo.png" alt="Foto Fr">
-					</div>
-					<div class="icone-ideia">
-						<i class="fa fa-lightbulb-o"></i>
-					</div>
-					<div class="icone-codigo">
-						<i class="fa fa-code"></i>
-					</div>
-				</div>
-
-				<div class="textos">
-					<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Sit laborum suscipit animi tenetur non dolores maiores, omnis, quo minus, obcaecati quasi nemo voluptatem deleniti amet incidunt maxime ab eligendi dolore.</p>
-					<a href="sobre.html" class="botao medio"><i class="fa fa-eye"></i> Continue lendo</a>
-				</div>
-			</div>
-		</section>
-	</main>
-
-	<footer>
-		<div class="logo-rodape">
-			<a href="index.html">
-				<img src="images/logo-fr-rodape.svg" alt="Logo Rodape Fr">
-			</a>
-		</div>
-		<p>2016 Todos os direitos reservados</p>
-	</footer>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script>
+		$(function() {
+			$('.toggle').click(function() {
+				$('.layout').toggleClass('ativo');
+				$('.menu-responsivo').toggleClass('ativo');
+				$(this).toggleClass('ativo');
+			});
+		});
+	</script>
 </body>
 </html>

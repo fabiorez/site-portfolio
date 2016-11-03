@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabitosam/site-portfolio.git"
+  },
+  "author": "Fabio Rezende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabitosam/site-portfolio/issues"
+  },
+  "homepage": "https://github.com/fabitosam/site-portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.10"
+  }
+}

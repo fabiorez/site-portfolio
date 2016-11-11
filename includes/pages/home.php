@@ -14,7 +14,7 @@
 
         <div class="textos">
             <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Sit laborum suscipit animi tenetur non dolores maiores, omnis, quo minus, obcaecati quasi nemo voluptatem deleniti amet incidunt maxime ab eligendi dolore.</p>
-            <a href="sobre.html" class="botao medio"><i class="fa fa-eye"></i> Continue lendo</a>
+            <a href="sobre.php" class="botao medio"><i class="fa fa-eye"></i> Continue lendo</a>
         </div>
     </div>
 </section>

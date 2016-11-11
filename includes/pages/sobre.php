@@ -30,6 +30,6 @@
             </li>
         </ul>
 
-            <a href="portfolio.html" class="botao medio"><i class="fa fa-briefcase"></i> Acessar Portfolio</a>
+            <a href="portfolio.php" class="botao medio"><i class="fa fa-briefcase"></i> Acessar Portfolio</a>
     </div>
 </section>

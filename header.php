@@ -17,7 +17,7 @@
 		<header>
 			<div class="container">
 				<div class="logo">
-					<a href="index.html">
+					<a href="index.php">
 						<img src="images/logo-fr-topo.svg" alt="Logo Topo Fr">
 					</a>
 				</div>

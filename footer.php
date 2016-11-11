@@ -2,7 +2,7 @@
 
 		<footer>
 			<div class="logo-rodape">
-				<a href="index.html">
+				<a href="index.php">
 					<img src="images/logo-fr-rodape.svg" alt="Logo Rodape Fr">
 				</a>
 			</div>

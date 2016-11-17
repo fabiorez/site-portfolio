@@ -2,11 +2,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Site Fabio Rezende</title>
-	<link rel="stylesheet" href="css/<?php echo $style; ?>.css">
-	<link rel="stylesheet" href="css/geral.css">
-	<link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
-	<link rel="stylesheet" href="css/plugins.css">
+	<title><?php bloginfo( 'name'); echo(' | '); bloginfo( 'description' );?></title>
+	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/css/<?php echo $style; ?>.css">
+	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/css/geral.css">
+	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/bower_components/wow/css/libs/animate.css">
+	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/css/plugins.css">
 	
 </head>
 <body> 
@@ -17,8 +17,8 @@
 		<header>
 			<div class="container">
 				<div class="logo">
-					<a href="index.php">
-						<img src="images/logo-fr-topo.svg" alt="Logo Topo Fr">
+					<a href="<?php bloginfo( 'url' );?>">
+						<img src="<?php bloginfo( 'template_url' )?>/images/logo-fr-topo.svg" alt="Logo Topo Fr">
 					</a>
 				</div>
 

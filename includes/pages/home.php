@@ -2,7 +2,7 @@
     <div class="container">
         <div class="itens">
             <div class="foto">
-                <img src="images/foto-2-fr-miolo.png" alt="Foto Fr">
+                <img src="<?php bloginfo( 'template_url' )?>/images/foto-2-fr-miolo.png" alt="Foto Fr">
             </div>
             <div class="icone-ideia" data-wow-duration="1s" data-wow-delay="1.3s">
                 <i class="fa fa-lightbulb-o"></i>

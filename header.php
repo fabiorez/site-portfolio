@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/css/<?php echo $style; ?>.css">
 	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/css/geral.css">
 	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/bower_components/wow/css/libs/animate.css">
+	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/bower_components/lightbox2/dist/css/lightbox.min.css">
 	<link rel="stylesheet" href="<?php bloginfo( 'template_url' )?>/css/plugins.css">
 	
 </head>
@@ -14,6 +15,20 @@
 	<?php include('includes/organisms/menu-responsivo.php') ?>
 
 	<div class="layout">
+
+		<style>
+			<?php if(get_the_post_thumbnail()) : ?>
+				header {
+					background-image: url('<?php the_post_thumbnail_url(); ?>');
+				}
+			<?php else : ?>
+				header {
+					background-image: url('<?php bloginfo('template_url');?>/images/fundo-topo.png');
+				}
+			<?php endif; ?>
+		</style>
+
+
 		<header>
 			<div class="container">
 				<div class="logo">
@@ -42,7 +57,7 @@
 					</ul>
 				</div>
 
-				<h1 class="wow pulse" data-wow-duration="1s" data-wow-delay="1s"><?php echo $chamada; ?></h1>
+				<h1 class="wow pulse" data-wow-duration="1s" data-wow-delay="1s"><?php the_title(); ?></h1>
 			</div>
 		</header>
 

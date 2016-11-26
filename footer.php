@@ -22,5 +22,6 @@
 			new WOW().init();
 		});
 	</script>
+	<script src="<?php bloginfo('template_url')?>/bower_components/lightbox2/dist/js/lightbox.min.js"></script>
 </body>
 </html>
